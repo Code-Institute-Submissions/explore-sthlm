@@ -10,6 +10,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-family: "Rozha One", serif;
+    letter-spacing: 2px;
+}
+
 
 /* --------------------------------- Navigation bar */
 
@@ -28,6 +33,7 @@ nav {
 .logo {
     margin-left: 20px;
     font-family: "Rozha One", serif;
+    letter-spacing: 4px;
 }
 
 .burger-menu {
@@ -61,9 +67,9 @@ nav {
   background-size: cover;
 }
 
-/* ------------------------------ About the City - section */
+/* ------------------------------ General styling for info-sections */
 
-.text-box {
+.section-info {
     width: 80%;
     margin: auto;
     margin-top: 20px;
@@ -90,7 +96,32 @@ nav {
     color: #9D8C7D;
 }
 
+.map {
+    height: 50vh;
+    width: 60%;
+    margin: auto;
+}
 
-/* ------------------------------ Things To Do - section */ 
-/* ------------------------------ Where To Eat - section */ 
-/* ------------------------------ Footer - section */ 
+/* ------------------------------ About The City */
+
+.sthlm {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.norrmalm, .vasastan, .ostermalm, .djurgarden, .gamlastan, .sodermalm {
+
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* ------------------------------ Things To Do */ 
+/* ------------------------------ Where To Eat */ 
+/* ------------------------------ Footer */ 
