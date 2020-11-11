@@ -10,6 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* --------------------------------- Navigation bar */
+
 nav {
     width: 100%;
     height: 10vh;
@@ -18,6 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
     z-index: 1;
 }
 
@@ -41,3 +44,25 @@ nav {
     margin-right: 25px;
     letter-spacing: 2.5px;
 }
+
+.navigation-list li a:hover {
+    color: #9D8C7D;
+}
+
+/* ------------------------------ Background image */
+
+.bg-image-1 {
+  background-image: url("../images/sthlm-hero.jpg");
+  height: 90vh;
+  width: 100%;
+  margin-top: 10vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------------------ About the City - section */
+/* ------------------------------ Things To Do - section */ 
+/* ------------------------------ Where To Eat - section */ 
+/* ------------------------------ Footer - section */ 
