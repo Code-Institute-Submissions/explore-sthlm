@@ -1,5 +1,10 @@
 $(document).ready(function () {
+
   map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 59.3293, lng: 18.0686 },
+    zoom: 11,
+  });
+    map2 = new google.maps.Map(document.getElementById("map2"), {
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
   });
@@ -83,5 +88,22 @@ $(document).ready(function () {
     $(".djurgarden").css("display", "none");
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "block");
+  });
+
+  //Things To Do Section
+  $("#culture").click(function(){
+      $(".culture").css("display", "block");
+      $(".parks").css("display", "none");
+      $(".shopping").css("display", "none");
+  });
+    $("#parks").click(function(){
+      $(".culture").css("display", "none");
+      $(".parks").css("display", "block");
+      $(".shopping").css("display", "none");
+  });
+    $("#shopping").click(function(){
+      $(".culture").css("display", "none");
+      $(".parks").css("display", "none");
+      $(".shopping").css("display", "block");
   });
 });

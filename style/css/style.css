@@ -127,14 +127,15 @@ nav {
 
 /* ------------------------------ Things To Do */ 
 
-.culture {
+.culture, .parks, .shopping {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
+    display: none;
 }
 
-.culture-info {
+.culture-info, .parks-info, .shopping-info {
     display: flex;
 }
 
