@@ -98,7 +98,7 @@ nav {
     color: #9D8C7D;
 }
 
-#map {
+#map, #map2 {
     height: 50vh;
     width: 60%;
     margin: auto;
@@ -126,5 +126,36 @@ nav {
 
 
 /* ------------------------------ Things To Do */ 
+
+.culture {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.culture-info {
+    display: flex;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.todo-info {
+  padding: 15px;
+  text-align: center;
+}
 /* ------------------------------ Where To Eat */ 
 /* ------------------------------ Footer */ 

@@ -8,7 +8,8 @@ $(document).ready(function () {
   }
 
   $("#sthlm").on("click", function () {
-    newLocation(59.3293, 18.0686), map.setZoom(11);
+    newLocation(59.3293, 18.0686), 
+    map.setZoom(11);
     $(".sthlm").css("display", "block");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -18,7 +19,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#vasastan").on("click", function () {
-    newLocation(59.3427, 18.0386), map.setZoom(14);
+    newLocation(59.3427, 18.0386), 
+    map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "block");
     $(".norrmalm").css("display", "none");
@@ -28,7 +30,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#norrmalm").on("click", function () {
-    newLocation(59.3346, 18.0605), map.setZoom(14);
+    newLocation(59.3346, 18.0605), 
+    map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "block");
@@ -38,7 +41,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#ostermalm").on("click", function () {
-    newLocation(59.3377, 18.09), map.setZoom(14);
+    newLocation(59.3377, 18.09), 
+    map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -48,7 +52,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#djurgarden").on("click", function () {
-    newLocation(59.3263, 18.1132), map.setZoom(14);
+    newLocation(59.3263, 18.1132), 
+    map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -58,7 +63,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#gamlastan").on("click", function () {
-    newLocation(59.3257, 18.0719), map.setZoom(15);
+    newLocation(59.3257, 18.0719), 
+    map.setZoom(15);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -68,7 +74,8 @@ $(document).ready(function () {
     $(".sodermalm").css("display", "none");
   });
   $("#sodermalm").on("click", function () {
-    newLocation(59.3118, 18.0663), map.setZoom(13);
+    newLocation(59.3118, 18.0663), 
+    map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
