@@ -13,6 +13,7 @@ body {
 h1 {
     font-family: "Rozha One", serif;
     letter-spacing: 2px;
+    margin-bottom: 15px;
 }
 
 
@@ -56,6 +57,7 @@ nav {
 }
 
 /* ------------------------------ Background image */
+
 .bg-image-1 {
   background-image: url("../images/sthlm-hero.jpg");
   height: 90vh;
@@ -96,7 +98,7 @@ nav {
     color: #9D8C7D;
 }
 
-.map {
+#map {
     height: 50vh;
     width: 60%;
     margin: auto;

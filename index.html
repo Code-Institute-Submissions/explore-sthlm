@@ -35,7 +35,7 @@
       </nav>
     </header>
     <section>
-      <div class="bg-image-1"></div>
+      <div id="bg-image" class="bg-image-1"></div>
     </section>
     <section id="about-the-city">
       <div class="section-info">
@@ -50,7 +50,7 @@
           <button>Gamla Stan</button>
           <button>Södermalm</button>
         </div>
-        <div class="map" id="map">Google Maps here</div>
+        <div id="map">Google Maps here</div>
            <div class="sthlm">      
             <p>
                 <h1>The City</h1>
@@ -159,11 +159,11 @@
     <footer>Footer</footer>
 
     <!-------- Link to JQuery -------->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+    crossorigin="anonymous"></script>
+    <!-------- Link to Google Maps Api -->
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUB-Z1fuuP4xXGVgPGEOJ0QQLjnfXMKnk&callback=initMap"></script>
     <!-------- Link to Javascript-file ----->
     <script type="text/javascript" src="js/myscript.js"></script>
   </body>
