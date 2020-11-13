@@ -69,6 +69,17 @@ nav {
   background-size: cover;
 }
 
+.bg-image-2 {
+  background-image: url("../images/sthlm-hero.jpg");
+  height: 50vh;
+  width: 100%;
+  margin-top: 10vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* ------------------------------ General styling for info-sections */
 
 .section-info {
@@ -98,7 +109,7 @@ nav {
     color: #9D8C7D;
 }
 
-#map, #map2 {
+#map, #map2, #map3 {
     height: 50vh;
     width: 60%;
     margin: auto;
@@ -125,17 +136,17 @@ nav {
 }
 
 
-/* ------------------------------ Things To Do */ 
+/* ------------------------------ Things To Do, Eat and Guide Tours */ 
 
-.culture, .parks, .shopping {
-    width: 80%;
+.culture, .parks, .shopping, .breakfast, .lunch, .cafes, .bars, .dinner, .guide-tours {
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
     display: none;
 }
 
-.culture-info, .parks-info, .shopping-info {
+.culture-info, .parks-info, .shopping-info, .breakfast-info, .lunch-info, .cafe-info, .dinner-info, .guide-tour-info {
     display: flex;
 }
 
@@ -143,6 +154,7 @@ nav {
   margin: 5px;
   border: 1px solid #ccc;
   width: 50%;
+  background-color: #BDB2A9;
 }
 
 .gallery:hover {
@@ -154,9 +166,12 @@ nav {
   height: auto;
 }
 
-.todo-info {
+.gallery-info {
   padding: 15px;
   text-align: center;
 }
-/* ------------------------------ Where To Eat */ 
+
+/* ------------------------------- Eat */ .bg-image-1
+
+
 /* ------------------------------ Footer */ 

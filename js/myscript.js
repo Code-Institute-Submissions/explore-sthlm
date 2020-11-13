@@ -8,6 +8,10 @@ $(document).ready(function () {
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
   });
+      map3 = new google.maps.Map(document.getElementById("map3"), {
+    center: { lat: 59.3293, lng: 18.0686 },
+    zoom: 11,
+  });
   function newLocation(newLat, newLng) {
     map.setCenter({ lat: newLat, lng: newLng });
   }
@@ -105,5 +109,29 @@ $(document).ready(function () {
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
       $(".shopping").fadeIn(2000).css("display", "block");
+  });
+     $("#breakfast").click(function(){
+      $(".breakfast").fadeIn(2000).css("display", "block");
+      $(".lunch").css("display", "none");
+      $(".cafes").css("display", "none");
+      $(".dinner").css("display", "none");
+  });
+      $("#lunch").click(function(){
+      $(".breakfast").css("display", "none");
+      $(".lunch").fadeIn(2000).css("display", "block");
+      $(".cafes").css("display", "none");
+      $(".dinner").css("display", "none");
+  });
+      $("#cafes").click(function(){
+      $(".breakfast").css("display", "none");
+      $(".lunch").css("display", "none");
+      $(".cafes").fadeIn(2000).css("display", "block");
+      $(".dinner").css("display", "none");
+  });
+      $("#dinner").click(function(){
+      $(".breakfast").css("display", "none");
+      $(".lunch").css("display", "none");
+      $(".cafes").css("display", "none");
+      $(".dinner").fadeIn(2000).css("display", "block");
   });
 });
