@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
@@ -15,7 +15,7 @@ $(document).ready(function () {
   $("#sthlm").on("click", function () {
     newLocation(59.3293, 18.0686), 
     map.setZoom(11);
-    $(".sthlm").css("display", "block");
+    $(".sthlm").fadeIn(2000).css("display", "block");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
     $(".ostermalm").css("display", "none");
@@ -27,7 +27,7 @@ $(document).ready(function () {
     newLocation(59.3427, 18.0386), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
-    $(".vasastan").css("display", "block");
+    $(".vasastan").fadeIn(2000).css("display", "block");
     $(".norrmalm").css("display", "none");
     $(".ostermalm").css("display", "none");
     $(".djurgarden").css("display", "none");
@@ -39,7 +39,7 @@ $(document).ready(function () {
     map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
-    $(".norrmalm").css("display", "block");
+    $(".norrmalm").fadeIn(2000).css("display", "block");
     $(".ostermalm").css("display", "none");
     $(".djurgarden").css("display", "none");
     $(".gamlastan").css("display", "none");
@@ -51,7 +51,7 @@ $(document).ready(function () {
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
-    $(".ostermalm").css("display", "block");
+    $(".ostermalm").fadeIn(2000).css("display", "block");
     $(".djurgarden").css("display", "none");
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
@@ -63,7 +63,7 @@ $(document).ready(function () {
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
     $(".ostermalm").css("display", "none");
-    $(".djurgarden").css("display", "block");
+    $(".djurgarden").fadeIn(2000).css("display", "block");
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
@@ -75,7 +75,7 @@ $(document).ready(function () {
     $(".norrmalm").css("display", "none");
     $(".ostermalm").css("display", "none");
     $(".djurgarden").css("display", "none");
-    $(".gamlastan").css("display", "block");
+    $(".gamlastan").fadeIn(2000).css("display", "block");
     $(".sodermalm").css("display", "none");
   });
   $("#sodermalm").on("click", function () {
@@ -87,23 +87,23 @@ $(document).ready(function () {
     $(".ostermalm").css("display", "none");
     $(".djurgarden").css("display", "none");
     $(".gamlastan").css("display", "none");
-    $(".sodermalm").css("display", "block");
+    $(".sodermalm").fadeIn(2000).css("display", "block");
   });
 
   //Things To Do Section
   $("#culture").click(function(){
-      $(".culture").css("display", "block");
+      $(".culture").fadeIn("2000").css("display", "block");
       $(".parks").css("display", "none");
       $(".shopping").css("display", "none");
   });
     $("#parks").click(function(){
       $(".culture").css("display", "none");
-      $(".parks").css("display", "block");
+      $(".parks").fadeIn(2000).css("display", "block");
       $(".shopping").css("display", "none");
   });
     $("#shopping").click(function(){
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
-      $(".shopping").css("display", "block");
+      $(".shopping").fadeIn(2000).css("display", "block");
   });
 });
