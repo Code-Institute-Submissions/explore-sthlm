@@ -16,6 +16,10 @@ $(document).ready(function () {
     map.setCenter({ lat: newLat, lng: newLng });
   }
 
+  
+
+
+
   $("#sthlm").on("click", function () {
     newLocation(59.3293, 18.0686), 
     map.setZoom(11);
@@ -95,7 +99,23 @@ $(document).ready(function () {
   });
 
   //Things To Do Section
-  $("#culture").click(function(){
+      $("#culture").click(function(){
+        new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
+
       $(".culture").fadeIn("2000").css("display", "block");
       $(".parks").css("display", "none");
       $(".shopping").css("display", "none");
