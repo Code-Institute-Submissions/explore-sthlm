@@ -121,34 +121,124 @@ $(document).ready(function () {
       $(".shopping").css("display", "none");
   });
     $("#parks").click(function(){
+        new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".culture").css("display", "none");
       $(".parks").fadeIn(2000).css("display", "block");
       $(".shopping").css("display", "none");
   });
     $("#shopping").click(function(){
+         new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map2,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
       $(".shopping").fadeIn(2000).css("display", "block");
   });
      $("#breakfast").click(function(){
+        new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".breakfast").fadeIn(2000).css("display", "block");
       $(".lunch").css("display", "none");
       $(".cafes").css("display", "none");
       $(".dinner").css("display", "none");
   });
       $("#lunch").click(function(){
+               new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".breakfast").css("display", "none");
       $(".lunch").fadeIn(2000).css("display", "block");
       $(".cafes").css("display", "none");
       $(".dinner").css("display", "none");
   });
       $("#cafes").click(function(){
+               new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".breakfast").css("display", "none");
       $(".lunch").css("display", "none");
       $(".cafes").fadeIn(2000).css("display", "block");
       $(".dinner").css("display", "none");
   });
       $("#dinner").click(function(){
+               new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3645, lng: 18.0333 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3398, lng: 18.0734 },
+  });
+      new google.maps.Marker({
+        map: map3,
+        animation: google.maps.Animation.DROP,
+        position: { lat: 59.3270, lng: 18.1037 },
+  });
       $(".breakfast").css("display", "none");
       $(".lunch").css("display", "none");
       $(".cafes").css("display", "none");
