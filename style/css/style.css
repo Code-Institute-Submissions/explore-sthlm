@@ -139,6 +139,22 @@ nav {
     display: none;
 }
 
+.gallery2 {
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 40%;
+  background-color: #BDB2A9;
+}
+
+.gallery2:hover {
+  border: 1px solid #777;
+}
+
+.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* ------------------------------ Things To Do & Where to Eat */ 
 
