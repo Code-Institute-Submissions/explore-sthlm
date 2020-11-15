@@ -183,11 +183,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.344323, lng: 18.052785 },
   });
-        //  
+        //  Miss Clara
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3270, lng: 18.1037 },
+        position: { lat: 59.337610, lng: 18.061937 },
   });
       $(".breakfast").fadeIn(2000).css("display", "block");
       $(".lunch").css("display", "none");
@@ -207,11 +207,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.318625, lng: 18.069937 },
   });
-        // Supper 
+        // Urban Deli 
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3270, lng: 18.1037 },
+        position: { lat: 59.312522, lng: 18.082500 },
   });
       $(".breakfast").css("display", "none");
       $(".lunch").fadeIn(2000).css("display", "block");
@@ -219,17 +219,17 @@ $(document).ready(function () {
       $(".dinner").css("display", "none");
   });
       $("#cafes").click(function(){
-        // 
+        // Cafe Foam
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.339159, lng: 18.084016 },
   });
-        //
+        // Ilcaffe
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.316257, lng: 18.034077 },
   });
         // Bröd & Salt
         new google.maps.Marker({
