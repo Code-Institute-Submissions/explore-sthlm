@@ -266,4 +266,17 @@ $(document).ready(function () {
       $(".cafes").css("display", "none");
       $(".dinner").fadeIn(2000).css("display", "block");
   });
+      $(".burger-menu").click(function(){
+      $(".navigation-list").slideToggle(1500);
+});
+       
+      $(".navigation-list li a").click(function(){
+           if ($(window).width() <=800 ) {
+          $(".navigation-list").css("display", "none");
+      }
+      else {
+          $(".navigation-list").show();
+      }
+    });
+        
 });

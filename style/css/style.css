@@ -28,7 +28,7 @@ nav {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 10px;
     font-family: "Rozha One", serif;
     letter-spacing: 4px;
     color: #fff;
@@ -36,22 +36,25 @@ nav {
 
 .burger-menu {
     color: #fff;
+    display: none;
 }
 
 .navigation-list {
     display: flex;
     list-style-type: none;
+    justify-content: space-around;
+    width: 60%;
 }
 
 .navigation-list li a {
     text-decoration: none;
     color: #fff;
-    margin-right: 25px;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
 }
 
+
 .navigation-list li a:hover {
-    color: #9D8C7D;
+    color: #BDB2A9;
 }
 
 /* ------------------------------ Background image */
@@ -59,7 +62,7 @@ nav {
 .bg-image-1 {
   background-image: url("../images/sthlm-big.jpg");
   height: 92.5vh;
-  width: 100%;
+  width: 100vw;
   margin-top: 7.5vh;
   background-attachment: fixed;
   background-position: center;
@@ -80,7 +83,7 @@ nav {
 /* ------------------------------ General styling for info-sections */
 
 .section-info {
-    width: 100%;
+    width: 90%;
     margin: auto;
     padding-top: 15vh;
     text-align: center;
@@ -110,7 +113,7 @@ nav {
 
 /* ------------------------------ Google Maps */
 
-#map, #map2, #map3, #map4 {
+.map {
     height: 40vh;
     width: 50%;
     margin: auto;
@@ -125,7 +128,6 @@ nav {
     margin: auto;
     padding-top: 10vh;
     text-align: center;
-    font-size: 18px;
 }
 
 .norrmalm, .vasastan, .ostermalm, .djurgarden, .gamlastan, .sodermalm {
@@ -134,7 +136,6 @@ nav {
     margin: auto;
     padding-top: 10vh;
     text-align: center;
-    font-size: 18px;
     display: none;
     
 }
@@ -172,9 +173,9 @@ nav {
 }
 
 .gallery {
-    margin: 10px;
     border: 1px solid #000;
-    width: 50%;
+    width: 80%;
+    margin: auto;
     background-color: #BDB2A9;
 }
 
@@ -324,3 +325,51 @@ footer ul li a {
 }
 
 /* ------------------------------ Media Querys */
+
+
+@media screen and (max-width:767px) {
+
+body {
+    font-size: 12px;
+}
+.logo {
+    font-size: 12px;
+}
+.burger-menu {
+    display: block;  
+    margin-right: 10px;
+}
+
+.item-info {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.navigation-list {
+    position: fixed;
+    background-color: #9D8C7D;
+    top: 7.5vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    display: none;
+}
+
+.navigation-list li {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.map {
+    height: 30vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+}
