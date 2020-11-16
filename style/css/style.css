@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lora", serif;
 }
@@ -114,7 +118,7 @@ nav {
 
 /* ------------------------------ Google Maps */
 
-#map, #map2, #map3 {
+#map, #map2, #map3, #map4 {
     height: 40vh;
     width: 50%;
     margin: auto;
@@ -172,10 +176,10 @@ nav {
 }
 
 .gallery {
-  margin: 10px;
-  border: 1px solid #000;
-  width: 50%;
-  background-color: #BDB2A9;
+    margin: 10px;
+    border: 1px solid #000;
+    width: 50%;
+    background-color: #BDB2A9;
 }
 
 .gallery:hover {
@@ -195,7 +199,7 @@ nav {
 .gallery-info h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
-     margin-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .eat-button {

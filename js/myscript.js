@@ -14,6 +14,10 @@ $(document).ready(function () {
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
   });
+    map4 = new google.maps.Map(document.getElementById("map4"), {
+    center: { lat: 59.3293, lng: 18.0686 },
+    zoom: 11,
+  });
   function newLocation(newLat, newLng) {
     map.setCenter({ lat: newLat, lng: newLng });
   }
