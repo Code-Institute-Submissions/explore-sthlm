@@ -99,17 +99,17 @@ $(document).ready(function () {
 
   //Things To Do Section
       $("#culture").click(function(){
-        // 
+        // Stockholm Library
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.3434, lng: 18.0548 },
   });
-        // 
+        // City Hall
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.3275, lng: 18.0543 },
   });
         // Fotografiska 
         new google.maps.Marker({
@@ -119,7 +119,7 @@ $(document).ready(function () {
   });
       $(".culture").fadeIn("2000").css("display", "block");
       $(".parks").css("display", "none");
-      $(".shopping").css("display", "none");
+      $(".leisure").css("display", "none");
   });
 
     $("#parks").click(function(){
@@ -135,17 +135,17 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3263, lng: 18.1132 },
   });
-        // Hagaparken
+        // Kungsträdgården
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.3311, lng: 18.0716 },
   });
       $(".culture").css("display", "none");
       $(".parks").fadeIn(2000).css("display", "block");
-      $(".shopping").css("display", "none");
+      $(".leisure").css("display", "none");
   });
-    $("#shopping").click(function(){
+    $("#leisure").click(function(){
         // Drottningatan
         new google.maps.Marker({
         map: map2,
@@ -158,15 +158,15 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3361, lng: 18.0734 },
   });
-        // Mall of Scandinavia
+        // Gröna Lund
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3692, lng: 18.0054 },
+        position: { lat: 59.3234, lng: 18.0964 },
   });
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
-      $(".shopping").fadeIn(2000).css("display", "block");
+      $(".leisure").fadeIn(2000).css("display", "block");
   });
 
     // Where to eat section - 
@@ -249,11 +249,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3347, lng: 18.0686 },
   });
-        // 
+        // Trattorian
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.326501, lng: 18.043523 },
   });
         // Bistroteket
         new google.maps.Marker({

@@ -29,6 +29,7 @@ nav {
     top: 0;
     z-index: 1;
     background-color: #BDB2A9;
+    border-bottom: 1px solid #000;
 }
 
 .logo {
@@ -64,7 +65,7 @@ nav {
   background-image: url("../images/sthlm-hero.jpg");
   height: 92.5vh;
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 7.5vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +76,6 @@ nav {
   background-image: url("../images/sthlm-hero.jpg");
   height: 50vh;
   width: 100%;
-  margin-top: 10vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ nav {
 .sthlm {
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10vh;
     text-align: center;
     font-size: 18px;
 }
@@ -134,7 +134,7 @@ nav {
 
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10vh;
     text-align: center;
     font-size: 18px;
     
@@ -159,11 +159,11 @@ nav {
 
 /* ------------------------------ Things To Do & Where to Eat */ 
 
-.culture, .parks, .shopping, .breakfast, .lunch, .cafes, .bars, .dinner {
+.culture, .parks, .leisure, .breakfast, .lunch, .cafes, .bars, .dinner {
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10vh;
     
 }
 
@@ -222,9 +222,81 @@ nav {
     text-align: center;
     padding-top: 20px;
 }
+.guide-tours p {
+    padding-bottom: 20px;
+}
 
 .guide-tour-info {
     display: flex;
+}
+
+.tour-button {
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    font-family: "Lora", serif;
+    background-color: #BDB2A9;
+    letter-spacing: 1px;
+}
+
+.tour-button a {
+    list-style-type: none;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tour-button a:hover {
+    color: #fff;
+}
+
+/*------------------------------ Contact Form */
+
+
+
+
+.contact-info {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+   
+#name , #email , #subject  {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=email] {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.contact-button {
+  background-color:  #BDB2A9;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 1px solid;
+  width: 25%;
+  font-family: "Playfair Display" , serif;
+  font-size: 18px;
+}
+
+.contact-button:hover {
+    color: white;
 }
 
 /* ------------------------------ Footer */ 
@@ -236,6 +308,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-top: 1px solid;
 }
 
 footer div {
