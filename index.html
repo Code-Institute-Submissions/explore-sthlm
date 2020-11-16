@@ -528,7 +528,7 @@
     <div class="bg-image-2">
     </div>
 </section>
-<!---------- Guide Tour and Contact Form section ------->
+<!---------- Guide Tour and section ------->
 
 <section id="guided-tours">
       <div class="section-info">
@@ -538,21 +538,21 @@
         <p>We offer you three different guided tours with experienced local guides to show you around town. 
         Just fill in our form below and we will get back to you soon!</p>
        
-        <div class="guide-tour-info">
+        <div class="item-info">
             <div class="gallery">
            
                     <div class="gallery-info">
                     <h4>Gamla Stan To Norrmalm</h4><p>Stockholm Parliament - Långmannagatan - Lunch at Urban Deli - 
                     Shopping at Drottninggatan - Konserthuset</p>
-                    <button class="tour-button"><a>Book this tour/Request more info</a></button>
+                    <button id="tour1" class="tour-button"><a>Book this tour/Request more info</a></button>
                     </div>
             </div>
             <div class="gallery">
               
                     <div class="gallery-info"> 
-                    <h4>Gamla Stan to Djurgården</h4><p>Stockholm Slott - The worlds narrowest street - Ferry to Djurgården - 
+                    <h4>Djurgården to Gamla Stan</h4><p>Stockholm Slott - The worlds narrowest street - Ferry to Djurgården - 
                     Lunch at Wärdshuset Ulla Winbladh - Abba Museum</p>
-                    <button class="tour-button"><a>Book this tour/Request more info</a></button>
+                    <button id="tour2" class="tour-button"><a>Book this tour/Request more info</a></button>
                     </div>
             </div>
             <div class="gallery">
@@ -560,7 +560,7 @@
                     <div class="gallery-info">
                     <h4>Södermalm to Östermalm</h4><p>Fotografiska Museet - Lunch at Ilcaffe - Art in the subway at 
                     Kungsträdgården - Östermalms Saluhall</p>
-                    <button class="tour-button"><a>Book This Tour/Request more info</a></button>
+                    <button id="tour3" class="tour-button"><a>Book This Tour/Request more info</a></button>
                     </div>
             </div>
         </div>
@@ -575,12 +575,13 @@
     </div>
 </section>
 <!------------- Contact Form ---------->
-<section>
+
+<section id="contact">
       
-        <div id="#contact" class="contact-info">
+        <div class="contact-section">
           <h1 class="headline">Contact Us</h1>
         <p>
-          Enter your information below, choose if you're interested in a particular tour, type in any questions you might have and I will get back to you as
+          Enter your information below, choose which tour you're interested in, any questions you might have and we will get back to you as
           soon as possible!
         </p>
         <div>
@@ -589,6 +590,21 @@
             <input type="text" id="name" name="name" placeholder="Your Name" required/>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your Email" required/>
+            <label for="tours">Choose a tour:</label>
+            <select id="tours" name="tours">
+            <option value="Tour1">1. Gamla Stan To Norrmalm</option>
+            <option value="Tour2">2. Djurgården To Gamla Stan</option>
+            <option value="Tour3">3. Södermalm to Östermalm</option>
+            </select>
+            <label for="participants">Number of participants:</label>
+            <select id="participants" name="participants">
+            <option value="Tour1">1</option>
+            <option value="Tour2">2</option>
+            <option value="Tour3">3</option>
+            <option value="Tour3">4 or more</option>
+             <label for="Date">Date:</label>
+  <input type="date" id="date" name="date">
+            </select>
             <label for="subject">Message</label>
             <textarea id="subject" name="subject" placeholder="Write your message/questions here" style="height: 200px;" required>
             </textarea>

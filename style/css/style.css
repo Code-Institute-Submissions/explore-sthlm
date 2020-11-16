@@ -142,9 +142,9 @@ nav {
 
 .gallery2 {
   margin: 20px;
-  border: 1px solid #000;
   width: 40%;
   background-color: #BDB2A9;
+  border: 1px solid #000;
 }
 
 .gallery2:hover {
@@ -214,6 +214,10 @@ nav {
     font-weight: bold;
 }
 
+.eat-button a:hover {
+    color: #fff;
+}
+
 /* ------------------------------- Guide Tours */
 
 .guide-tours {
@@ -224,10 +228,6 @@ nav {
 }
 .guide-tours p {
     padding-bottom: 20px;
-}
-
-.guide-tour-info {
-    display: flex;
 }
 
 .tour-button {
@@ -252,18 +252,15 @@ nav {
 
 /*------------------------------ Contact Form */
 
-
-
-
-.contact-info {
+ .contact-section {
     width: 60%;
     margin: auto;
+    padding-top: 15vh;
     text-align: center;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-}
-   
-#name , #email , #subject  {
+    padding-bottom: 10vh;
+} 
+
+#name , #email , #tours, #participants, #date, #subject {
   width: 100%;
   padding: 12px; 
   border: 1px solid #ccc; 
