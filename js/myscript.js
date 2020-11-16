@@ -14,17 +14,12 @@ $(document).ready(function () {
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
   });
-    map4 = new google.maps.Map(document.getElementById("map4"), {
-    center: { lat: 59.3293, lng: 18.0686 },
-    zoom: 11,
-  });
   function newLocation(newLat, newLng) {
     map.setCenter({ lat: newLat, lng: newLng });
   }
 
-
   // About the city section - 
-  $("#sthlm").click(function () {
+  $("#sthlm").on("click", function () {
     newLocation(59.3293, 18.0686), 
     map.setZoom(11);
     $(".sthlm").fadeIn(2000).css("display", "block");
@@ -35,7 +30,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#vasastan").click(function () {
+  $("#vasastan").on("click", function () {
     newLocation(59.3427, 18.0386), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -46,7 +41,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#norrmalm").click(function () {
+  $("#norrmalm").on("click", function () {
     newLocation(59.3346, 18.0605), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -57,7 +52,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#ostermalm").click(function () {
+  $("#ostermalm").on("click", function () {
     newLocation(59.3377, 18.09), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -68,7 +63,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#djurgarden").click( function () {
+  $("#djurgarden").on("click", function () {
     newLocation(59.3263, 18.1132), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -79,7 +74,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#gamlastan").click( function () {
+  $("#gamlastan").on("click", function () {
     newLocation(59.3257, 18.0719), 
     map.setZoom(15);
     $(".sthlm").css("display", "none");
@@ -90,7 +85,7 @@ $(document).ready(function () {
     $(".gamlastan").fadeIn(2000).css("display", "block");
     $(".sodermalm").css("display", "none");
   });
-  $("#sodermalm").click(function () {
+  $("#sodermalm").on("click", function () {
     newLocation(59.3118, 18.0663), 
     map.setZoom(13);
     $(".sthlm").css("display", "none");
@@ -104,17 +99,17 @@ $(document).ready(function () {
 
   //Things To Do Section
       $("#culture").click(function(){
-        // Stockholm Library
+        // 
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3434, lng: 18.0548 },
+        position: { lat: 59.3645, lng: 18.0333 },
   });
-        // City Hall
+        // 
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3275, lng: 18.0543 },
+        position: { lat: 59.3398, lng: 18.0734 },
   });
         // Fotografiska 
         new google.maps.Marker({
@@ -129,7 +124,6 @@ $(document).ready(function () {
 
     $("#parks").click(function(){
         // Humlegården
-          
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -141,11 +135,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3263, lng: 18.1132 },
   });
-        // Kungsträdgården
+        // Hagaparken
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3311, lng: 18.0716 },
+        position: { lat: 59.3645, lng: 18.0333 },
   });
       $(".culture").css("display", "none");
       $(".parks").fadeIn(2000).css("display", "block");
@@ -153,7 +147,6 @@ $(document).ready(function () {
   });
     $("#leisure").click(function(){
         // Drottningatan
-        
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -165,11 +158,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3361, lng: 18.0734 },
   });
-        // Gröna Lund
+        // Mall of Scandinavia
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3234, lng: 18.0964 },
+        position: { lat: 59.3692, lng: 18.0054 },
   });
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
@@ -190,11 +183,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.344323, lng: 18.052785 },
   });
-        //  Miss Clara
+        //  
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.337610, lng: 18.061937 },
+        position: { lat: 59.3270, lng: 18.1037 },
   });
       $(".breakfast").fadeIn(2000).css("display", "block");
       $(".lunch").css("display", "none");
@@ -214,11 +207,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.318625, lng: 18.069937 },
   });
-        // Urban Deli 
+        // Supper 
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.312522, lng: 18.082500 },
+        position: { lat: 59.3270, lng: 18.1037 },
   });
       $(".breakfast").css("display", "none");
       $(".lunch").fadeIn(2000).css("display", "block");
@@ -226,17 +219,17 @@ $(document).ready(function () {
       $(".dinner").css("display", "none");
   });
       $("#cafes").click(function(){
-        // Cafe Foam
+        // 
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.339159, lng: 18.084016 },
+        position: { lat: 59.3645, lng: 18.0333 },
   });
-        // Ilcaffe
+        //
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.316257, lng: 18.034077 },
+        position: { lat: 59.3398, lng: 18.0734 },
   });
         // Bröd & Salt
         new google.maps.Marker({
@@ -256,11 +249,11 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3347, lng: 18.0686 },
   });
-        // Trattorian
+        // 
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.326501, lng: 18.043523 },
+        position: { lat: 59.3398, lng: 18.0734 },
   });
         // Bistroteket
         new google.maps.Marker({
