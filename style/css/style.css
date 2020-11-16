@@ -54,7 +54,7 @@ nav {
 
 
 .navigation-list li a:hover {
-    color: #BDB2A9;
+    color:beige;
 }
 
 /* ------------------------------ Background image */
@@ -91,7 +91,7 @@ nav {
 
 .headline {
     font-family: "Rozha One", serif;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     letter-spacing: 3px;
     
@@ -141,19 +141,19 @@ nav {
 }
 
 .gallery2 {
-  margin: 20px;
-  width: 40%;
-  background-color: #BDB2A9;
-  border: 1px solid #000;
+    width: 80%;
+    margin: 20px;
+    background-color: #BDB2A9;
+    border: 1px solid #000;
 }
 
 .gallery2:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 .gallery2 img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -174,8 +174,9 @@ nav {
 
 .gallery {
     border: 1px solid #000;
+    margin: 20px;
     width: 80%;
-    margin: auto;
+    
     background-color: #BDB2A9;
 }
 
@@ -200,7 +201,6 @@ nav {
 }
 
 .eat-button {
-    font-size: 16px;
     border: none;
     margin: 5px;
     font-family: "Lora", serif;
@@ -232,7 +232,6 @@ nav {
 }
 
 .tour-button {
-    font-size: 16px;
     border: none;
     margin: 5px;
     font-family: "Lora", serif;
@@ -370,6 +369,10 @@ body {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.city-area-menu button {
+    font-size: 12px;
 }
 
 }
