@@ -23,8 +23,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: #BDB2A9;
-    border-bottom: 1px solid #000;
+    background-color: #39515E;
 }
 
 .logo {
@@ -108,7 +107,7 @@ nav {
 }
 
 .city-area-menu button:hover {
-    color: #9D8C7D;
+    color: #39515E;
 }
 
 /* ------------------------------ Google Maps */
@@ -143,19 +142,14 @@ nav {
 .gallery2 {
     width: 80%;
     margin: 20px;
-    background-color: #BDB2A9;
-    border: 1px solid #000;
-}
-
-.gallery2:hover {
-    border: 1px solid #777;
+    background-color: #39515E;
+    border: 0.5px solid;
 }
 
 .gallery2 img {
     width: 100%;
     height: auto;
 }
-
 
 /* ------------------------------ Things To Do & Where to Eat */ 
 
@@ -173,15 +167,10 @@ nav {
 }
 
 .gallery {
-    border: 1px solid #000;
     margin: 20px;
     width: 80%;
-    
-    background-color: #BDB2A9;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
+    background-color: #39515E;
+    border: 0.5px solid;
 }
 
 .gallery img {
@@ -192,6 +181,7 @@ nav {
 .gallery-info {
   padding: 15px;
   text-align: center;
+  color: #fff;
 }
 
 .gallery-info h4 {
@@ -204,19 +194,19 @@ nav {
     border: none;
     margin: 5px;
     font-family: "Lora", serif;
-    background-color: #BDB2A9;
+    background-color: #39515E;
     letter-spacing: 1px;
 }
 
 .eat-button a {
     list-style-type: none;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
 .eat-button a:hover {
-    color: #fff;
+    color: #ccc;
 }
 
 /* ------------------------------- Guide Tours */
@@ -235,19 +225,20 @@ nav {
     border: none;
     margin: 5px;
     font-family: "Lora", serif;
-    background-color: #BDB2A9;
+    background-color: #39515E;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 .tour-button a {
     list-style-type: none;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
 .tour-button a:hover {
-    color: #fff;
+    color: #ccc;
 }
 
 /*------------------------------ Contact Form */
@@ -283,17 +274,18 @@ input[type=email] {
 }
 
 .contact-button {
-  background-color:  #BDB2A9;
+  background-color:  #39515E;
   padding: 12px 20px;
   border-radius: 4px;
   border: 1px solid;
   width: 25%;
   font-family: "Playfair Display" , serif;
   font-size: 18px;
+  color: #fff;
 }
 
 .contact-button:hover {
-    color: white;
+    color: #ccc;
 }
 
 /* ------------------------------ Footer */ 
@@ -301,7 +293,7 @@ input[type=email] {
 footer {
     width: 100%;
     height: 7.5vh;
-    background-color: #BDB2A9; 
+    background-color: #39515E; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -321,6 +313,10 @@ footer ul li a {
     margin: 10px;
     text-decoration: none;
     color: #fff;
+}
+
+footer ul li a:hover {
+    color: #ccc;
 }
 
 /* ------------------------------ Media Querys */
@@ -347,7 +343,7 @@ body {
 
 .navigation-list {
     position: fixed;
-    background-color: #9D8C7D;
+    background-color: #39515E;
     top: 7.5vh;
     width: 100%;
     flex-direction: column;
