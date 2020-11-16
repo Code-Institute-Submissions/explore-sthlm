@@ -10,7 +10,14 @@
     ></script>
     <!------- Link to Css-file ------>
     <link rel="stylesheet" href="style/css/style.css" type="text/css" />
-
+    <!------ Email Js --------------->
+        <script type="text/javascript" src="js/sendmail.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('user_McbFh27wsE5Ov2YFj45BO');
+        })();
+</script>
     <title>Explore Stockholm</title>
   </head>
 
@@ -54,7 +61,7 @@
         <div id="map"></div>
            <div class="sthlm">      
                 <p>
-                <h1>The City</h1>
+                <h1 class="headline">The City</h1>
                 Stockholm is the capital and most populous urban area of Sweden as well as in Scandinavia. 
                 1 million people live in the municipality, approximately 2 million in the urban area,
                 and 2.4 million in the metropolitan area.
@@ -89,7 +96,7 @@
             </div>
             <div class="vasastan">
                 <p>
-                <h1>Vasastan</h1>
+                <h1 class="headline">Vasastan</h1>
                 Residential Vasastan is known for its parks, in particular Vasaparken, a popular picnic spot, and Observatorielunden park, 
                 home to the Stockholm Observatory. Tegnérlunden park has statues of Astrid Lindgren, author of the Pippi Longstocking books, 
                 and playwright August Strindberg, whose former home, now the Strindbergsmuseet, is nearby. 
@@ -112,7 +119,7 @@
             </div>
             <div class="norrmalm">
                 <p>
-                <h1>Norrmalm</h1>
+                <h1 class="headline">Norrmalm</h1>
                 Norrmalm is a busy commercial area, with mainstream Swedish fashion and design shops lining Drottninggatan and 
                 the surrounding streets. It’s also a cultural hub, with opera and ballet at the Royal Swedish Opera, art exhibitions and 
                 modern dance at Kulturhuset Stadsteatern and orchestral performances at the neoclassical Stockholm Concert Hall. 
@@ -135,7 +142,7 @@
             </div>
             <div class="ostermalm">
                 <p>
-                <h1>Östermalm</h1>
+                <h1 class="headline">Östermalm</h1>
                 Elegant Östermalm is known for its smart bars and restaurants on Stureplan square, and its cultural venues, 
                 such as the Swedish History Museum, displaying Viking weapons. Designer boutiques dot the area near Östermalms Saluhall, 
                 a food market known for traditional specialties like gravlax and smoked shrimp. Centered on the imposing National Library 
@@ -158,7 +165,7 @@
             </div> 
             <div class="djurgarden">
                 <p>
-                <h1>Djurgården</h1>
+                <h1 class="headline">Djurgården</h1>
                 Djurgården is a tranquil island known for the Vasa Museum, featuring a 17th-century warship, and the Skansen open-air museum, 
                 which has craftspeople and reconstructed homes depicting Swedish life through the decades. Fans of Swedish pop music browse 
                 memorabilia, old records and costumes, at ABBA: The Museum. Ferries dock next to Gröna Lund amusement park, known for its 
@@ -181,7 +188,7 @@
             </div>   
             <div class="gamlastan">
                 <p>
-                <h1>Gamla Stan</h1>
+                <h1 class="headline">Gamla Stan</h1>
                 The bustling, compact island of Gamla Stan is the city’s old town, with cobbled streets and colorful 17th- and 18th-century 
                 buildings. It’s home to the medieval Storkyrkan cathedral and the Royal Palace, the king’s official residence. Stylish bistros 
                 serve New Nordic cuisine, while night spots include old-school pubs and chic cocktail bars. On adjoining Riddarholmen island, 
@@ -204,7 +211,7 @@
             </div>
             <div class="sodermalm">
                 <p>
-                <h1>Södermalm</h1>
+                <h1 class="headline">Södermalm</h1>
                 Sprawling Södermalm island has a relaxed, creative vibe, with artsy shops, eclectic cafes  and the stylish Fotografiska, 
                 a contemporary photo  gallery in a former industrial building by the water. Classic Swedish restaurants and hip breakfast 
                 spots surround leafy Nytorget Square and dot the bustling  Hornstull area. In summer, the small beaches in Tantolunden 
@@ -244,7 +251,7 @@
     
     <div id="map2"></div>
     <div class="culture">
-        <h1>Culture</h1>
+        <h1 class="headline">Culture</h1>
             <div class="item-info">
                 <div class="gallery">
                     <a href="#"><img src="style/images/todo/library.jpg" alt="Stockholm Library"></a>
@@ -274,7 +281,7 @@
             </div>
     </div>
     <div class="parks">
-    <h1>Parks & Recreational</h1>
+    <h1 class="headline">Parks & Recreational</h1>
         <div class="item-info">
             <div class="gallery">
             <img src="style/images/todo/humlegarden.jpg" alt="Humlegarden">
@@ -302,7 +309,7 @@
         </div>  
     </div>
     <div class="leisure">
-    <h1>Leisure Time</h1>
+    <h1 class="headline">Leisure Time</h1>
         <div class="item-info">
             <div class="gallery">
                 <img src="style/images/todo/drottning.jpg" alt="Drottninggatan">
@@ -589,25 +596,16 @@
           soon as possible!
         </p>
         <div>
-          <form action="#">
+          <form id="contact-form" onsubmit="return sendForm(this);">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required/>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your Email" required/>
             <label for="tours">Choose a tour:</label>
             <select id="tours" name="tours">
-            <option value="Tour1">1. Gamla Stan To Norrmalm</option>
-            <option value="Tour2">2. Djurgården To Gamla Stan</option>
-            <option value="Tour3">3. Södermalm to Östermalm</option>
-            </select>
-            <label for="participants">Number of participants:</label>
-            <select id="participants" name="participants">
-            <option value="Tour1">1</option>
-            <option value="Tour2">2</option>
-            <option value="Tour3">3</option>
-            <option value="Tour3">4 or more</option>
-             <label for="Date">Date:</label>
-  <input type="date" id="date" name="date">
+            <option value="oldtowntonorrmalm">1. Gamla Stan To Norrmalm</option>
+            <option value="djurgardentooldtown">2. Djurgården To Gamla Stan</option>
+            <option value="sodermalmtoostermalm">3. Södermalm to Östermalm</option>
             </select>
             <label for="subject">Message</label>
             <textarea id="subject" name="subject" placeholder="Write your message/questions here" style="height: 200px;" required>
@@ -635,5 +633,6 @@
   type="text/javascript"></script>
     <!-------- Link to Javascript-file ----->
     <script type="text/javascript" src="js/myscript.js"></script>
+
   </body>
 </html>

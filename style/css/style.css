@@ -14,11 +14,6 @@ body {
     font-family: "Lora", serif;
 }
 
-h1 {
-    font-family: "Rozha One", serif;
-    letter-spacing: 3px;
-    margin-bottom: 15px;
-}
 
 
 /* --------------------------------- Navigation bar */
@@ -99,6 +94,7 @@ nav {
     font-family: "Rozha One", serif;
     font-size: 5vh;
     text-align: center;
+    letter-spacing: 3px;
     
 }
 
@@ -141,6 +137,7 @@ nav {
     padding-top: 10vh;
     text-align: center;
     font-size: 18px;
+    display: none;
     
 }
 
@@ -264,7 +261,7 @@ nav {
     padding-bottom: 10vh;
 } 
 
-#name , #email , #tours, #participants, #date, #subject {
+#name , #email , #tours, #subject {
   width: 100%;
   padding: 12px; 
   border: 1px solid #ccc; 

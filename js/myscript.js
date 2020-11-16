@@ -22,8 +22,9 @@ $(document).ready(function () {
     map.setCenter({ lat: newLat, lng: newLng });
   }
 
+
   // About the city section - 
-  $("#sthlm").on("click", function () {
+  $("#sthlm").click(function () {
     newLocation(59.3293, 18.0686), 
     map.setZoom(11);
     $(".sthlm").fadeIn(2000).css("display", "block");
@@ -34,7 +35,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#vasastan").on("click", function () {
+  $("#vasastan").click(function () {
     newLocation(59.3427, 18.0386), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -45,7 +46,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#norrmalm").on("click", function () {
+  $("#norrmalm").click(function () {
     newLocation(59.3346, 18.0605), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -56,7 +57,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#ostermalm").on("click", function () {
+  $("#ostermalm").click(function () {
     newLocation(59.3377, 18.09), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -67,7 +68,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#djurgarden").on("click", function () {
+  $("#djurgarden").click( function () {
     newLocation(59.3263, 18.1132), 
     map.setZoom(14);
     $(".sthlm").css("display", "none");
@@ -78,7 +79,7 @@ $(document).ready(function () {
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
   });
-  $("#gamlastan").on("click", function () {
+  $("#gamlastan").click( function () {
     newLocation(59.3257, 18.0719), 
     map.setZoom(15);
     $(".sthlm").css("display", "none");
@@ -89,7 +90,7 @@ $(document).ready(function () {
     $(".gamlastan").fadeIn(2000).css("display", "block");
     $(".sodermalm").css("display", "none");
   });
-  $("#sodermalm").on("click", function () {
+  $("#sodermalm").click(function () {
     newLocation(59.3118, 18.0663), 
     map.setZoom(13);
     $(".sthlm").css("display", "none");
@@ -128,6 +129,7 @@ $(document).ready(function () {
 
     $("#parks").click(function(){
         // Humlegården
+          
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -151,6 +153,7 @@ $(document).ready(function () {
   });
     $("#leisure").click(function(){
         // Drottningatan
+        
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
