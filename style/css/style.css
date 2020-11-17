@@ -65,9 +65,9 @@ nav {
 /* ------------------------------ Background image */
 
 .bg-image-1 {
-  background-image: url("../images/sthlm-big.jpg");
+  background-image: url("../images/hero.jpg");
   height: 70vh;
-  width: 100vw;
+  width: 100%;
   margin-top: 7.5vh;
   background-attachment: fixed;
   background-position: center;
@@ -76,7 +76,7 @@ nav {
 }
 
 .bg-image-2 {
-  background-image: url("../images/sthlm-big.jpg");
+  background-image: url("../images/hero.jpg");
   height: 50vh;
   width: 100%;
   background-attachment: fixed;
