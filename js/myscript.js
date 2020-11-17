@@ -15,19 +15,17 @@
     center: { lat: 59.3293, lng: 18.0686 },
     zoom: 11,
   });
-    }
+  }
+
   $(document).ready(function () {
 
   function newLocation(newLat, newLng) {
     map.setCenter({ lat: newLat, lng: newLng });
-  }
-
-     
-        
+  }    
 
   // About the city section - 
   $("#sthlm").on("click", function () {
-    newLocation(59.3293, 18.0686), 
+    newLocation(59.3293, 18.0686),
     map.setZoom(11);
      $(".sthlm").fadeIn(2000).css("display", "block");
     $(".vasastan").css("display", "none");
@@ -61,7 +59,7 @@
     $(".sodermalm").css("display", "none");
   });
   $("#ostermalm").on("click", function () {
-    newLocation(59.3377, 18.09), 
+    newLocation(59.3377, 18.09),
     map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
