@@ -31,6 +31,12 @@ nav {
     font-family: "Rozha One", serif;
     letter-spacing: 4px;
     color: #fff;
+    list-style-type: none;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .burger-menu {
@@ -369,6 +375,10 @@ body {
 
 .city-area-menu button {
     font-size: 12px;
+}
+
+.contact-button {
+    width: 50%;
 }
 
 }

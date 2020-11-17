@@ -99,13 +99,13 @@ $(document).ready(function () {
 
   //Things To Do Section
       $("#culture").click(function(){
-        // 
+        // Sthlm Public Library
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3645, lng: 18.0333 },
   });
-        // 
+        // City Hall
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -135,7 +135,7 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3263, lng: 18.1132 },
   });
-        // Hagaparken
+        // Kungsträdgården
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -158,7 +158,7 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3361, lng: 18.0734 },
   });
-        // Mall of Scandinavia
+        // Gröna Lund
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
@@ -183,7 +183,7 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.344323, lng: 18.052785 },
   });
-        //  
+        // Miss Clara
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
@@ -207,7 +207,7 @@ $(document).ready(function () {
         animation: google.maps.Animation.DROP,
         position: { lat: 59.318625, lng: 18.069937 },
   });
-        // Supper 
+        // Urban Deli Södermalm
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
@@ -219,13 +219,13 @@ $(document).ready(function () {
       $(".dinner").css("display", "none");
   });
       $("#cafes").click(function(){
-        // 
+        // Cafe Foam
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3645, lng: 18.0333 },
   });
-        //
+        // IlCaffe
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
@@ -243,13 +243,13 @@ $(document).ready(function () {
       $(".dinner").css("display", "none");
   });
       $("#dinner").click(function(){
-        //  Boquerian 
+        // Boquerian 
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3347, lng: 18.0686 },
   });
-        // 
+        // Trattorian
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
