@@ -31,7 +31,7 @@
   });
   $("#vasastan").on("click", function () {
     newLocation(59.3427, 18.0386), 
-    map.setZoom(14);
+    map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").fadeIn(2000).css("display", "block");
     $(".norrmalm").css("display", "none");
@@ -42,7 +42,7 @@
   });
   $("#norrmalm").on("click", function () {
     newLocation(59.3346, 18.0605), 
-    map.setZoom(14);
+    map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").fadeIn(2000).css("display", "block");
@@ -53,7 +53,7 @@
   });
   $("#ostermalm").on("click", function () {
     newLocation(59.3377, 18.09), 
-    map.setZoom(14);
+    map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -64,7 +64,7 @@
   });
   $("#djurgarden").on("click", function () {
     newLocation(59.3263, 18.1132), 
-    map.setZoom(14);
+    map.setZoom(13);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -75,7 +75,7 @@
   });
   $("#gamlastan").on("click", function () {
     newLocation(59.3257, 18.0719), 
-    map.setZoom(15);
+    map.setZoom(14);
     $(".sthlm").css("display", "none");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
@@ -102,19 +102,19 @@
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.3434, lng: 18.0548 },
   });
         // City Hall
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.3275, lng: 18.0543 },
   });
         // Fotografiska 
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3178, lng: 18.0859 },
+        position: { lat: 59.3178, lng: 18.0859 }, 
   });
       $(".culture").fadeIn("2000").css("display", "block");
       $(".parks").css("display", "none");
@@ -126,7 +126,7 @@
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3263, lng: 18.1132},
+        position: { lat: 59.3398, lng: 18.1132},
   });
         // Djurgården
         new google.maps.Marker({
@@ -138,7 +138,7 @@
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.3311, lng: 18.0716 },
   });
       $(".culture").css("display", "none");
       $(".parks").fadeIn(2000).css("display", "block");
@@ -149,7 +149,7 @@
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3326, lng: 18.0626 },
+        position: { lat: 59.332277, lng: 18.062996 },
   });
         // Sturegallerian
         new google.maps.Marker({
@@ -161,7 +161,7 @@
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3692, lng: 18.0054 },
+        position: { lat: 59.3234, lng: 18.0964 },
   });
       $(".culture").css("display", "none");
       $(".parks").css("display", "none");
@@ -186,7 +186,7 @@
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3270, lng: 18.1037 },
+        position: { lat: 59.3376, lng: 18.0619 },
   });
       $(".breakfast").fadeIn(2000).css("display", "block");
       $(".lunch").css("display", "none");
@@ -198,7 +198,7 @@
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat:59.328081, lng: 18.099776 },
+        position: { lat:59.328114, lng: 18.099840 },
   });
         // Bastard Burger
         new google.maps.Marker({
@@ -210,7 +210,7 @@
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3270, lng: 18.1037 },
+        position: { lat: 59.312511, lng: 18.082511 },
   });
       $(".breakfast").css("display", "none");
       $(".lunch").fadeIn(2000).css("display", "block");
@@ -222,19 +222,19 @@
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3645, lng: 18.0333 },
+        position: { lat: 59.3391, lng: 18.0840 },
   });
         // IlCaffe
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.3299, lng: 18.0431 },
   });
         // Bröd & Salt
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3270, lng: 18.1037 },
+        position: { lat: 59.322834, lng: 18.072870 },
   });
       $(".breakfast").css("display", "none");
       $(".lunch").css("display", "none");
@@ -252,13 +252,13 @@
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3398, lng: 18.0734 },
+        position: { lat: 59.3265, lng: 18.0435 },
   });
         // Bistroteket
         new google.maps.Marker({
         map: map3,
         animation: google.maps.Animation.DROP,
-        position: { lat: 59.3135, lng: 18.0846 },
+        position: { lat: 59.313452, lng: 18.084556 },
   });
       $(".breakfast").css("display", "none");
       $(".lunch").css("display", "none");
