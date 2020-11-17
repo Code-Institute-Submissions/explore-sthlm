@@ -60,7 +60,7 @@ nav {
 
 .bg-image-1 {
   background-image: url("../images/sthlm-big.jpg");
-  height: 92.5vh;
+  height: 70vh;
   width: 100vw;
   margin-top: 7.5vh;
   background-attachment: fixed;
@@ -84,7 +84,7 @@ nav {
 .section-info {
     width: 90%;
     margin: auto;
-    padding-top: 15vh;
+    padding-top: 10vh;
     text-align: center;
 }
 

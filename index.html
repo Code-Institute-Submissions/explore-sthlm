@@ -1,307 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!------- Link to Fontawesome ---->
-    <script
-      src="https://kit.fontawesome.com/21d46fbcca.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/21d46fbcca.js" crossorigin="anonymous"> 
+    </script>
     <!------- Link to Css-file ------>
     <link rel="stylesheet" href="style/css/style.css" type="text/css" />
     <!------ Email Js --------------->
-        <script type="text/javascript" src="js/sendmail.js"></script>
-       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" src="js/sendmail.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init('user_McbFh27wsE5Ov2YFj45BO');
+        emailjs.init('user_McbFh27wsE5Ov2YFj45BO');
         })();
-</script>
+    </script>
     <title>Explore Stockholm</title>
-  </head>
-
-  <body>
-    <!----- Header and Navigation ---->
+</head>
+<body>
+<!----- Header and Navigation ---->
     <header>
-      <nav>
-        <div class="logo">
-          <h1>Explore Stockholm</h1>
-        </div>
-        <div class="burger-menu"><i class="fas fa-bars"></i></div>
-        
-          <ul class="navigation-list">
-            <li><a href="index.html"><i class="fas fa-home"></i></a></li>
-            <li><a href="#about-the-city">About the City</a></li>
-            <li><a href="#things-to-do">Things To Do</a></li>
-            <li><a href="#where-to-eat">Where To Eat</a></li>
-            <li><a href="#guided-tours">Guided Tours</a></li>
-           <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        
-      </nav>
+        <nav>
+            <div class="logo">
+                <h1>Explore Stockholm</h1>
+            </div>
+            <div class="burger-menu"><i class="fas fa-bars"></i>
+            </div>
+            <ul class="navigation-list">
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="#about-the-city">About the City</a></li>
+                <li><a href="#things-to-do">Things To Do</a></li>
+                <li><a href="#where-to-eat">Where To Eat</a></li>
+                <li><a href="#guided-tours">Guided Tours</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </nav>
     </header>
     <!------------- Hero Image ------->
-    <section>
-      <div id="bg-image" class="bg-image-1"></div>
-    </section>
+    <section><div id="bg-image" class="bg-image-1"></div></section>
     <!------------- About the city section ------->
     <section id="about-the-city">
-      <div class="section-info">
-        <h1 class="headline">About The City</h1>
-
-        <div class="city-area-menu">
-          <button id="sthlm">Stockholm</button>
-          <button id="vasastan">Vasastan</button>
-          <button id="norrmalm">Norrmalm</button>
-          <button id="ostermalm">Östermalm</button>
-          <button id="djurgarden">Djurgården</button>
-          <button id="gamlastan">Gamla Stan</button>
-          <button id="sodermalm">Södermalm</button>
+        <div class="section-info">
+            <h1 class="headline">Stockholm</h1>
+                <div class="city-area-menu">
+                    <button id="sthlm">The City</button>
+                    <button id="vasastan">Vasastan</button>
+                    <button id="norrmalm">Norrmalm</button>
+                    <button id="ostermalm">Östermalm</button>
+                    <button id="djurgarden">Djurgården</button>
+                    <button id="gamlastan">Gamla Stan</button>
+                    <button id="sodermalm">Södermalm</button>
+                </div>
+                <p>Welcome to our site about Stockholm! Here you will find information about the city and it's different neighbourhoods, tips on things to do as well as places to eat throughout the city. Just browse around the different sections you're interested in! </p>
+              <h4>If you're interested in a guided tour take a look at our local guides <a href="#guided-tours">here</a>!</h4>
+                <div class="map" id="map"></div>
+                <div class="sthlm">       
+                    <h1 class="headline">Stockholm</h1>
+                    <p>Stockholm is the capital and most populous urban area of Sweden as well as in Scandinavia. 
+                    1 million people live in the municipality, approximately 2 million in the urban area,
+                    and 2.4 million in the metropolitan area.
+                    The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. 
+                    Outside the city to the east, and along the coast, is the island chain of the Stockholm archipelago. 
+                    The area has been settled since the Stone Age, in the 6th millennium BC, and was founded as a city in 
+                    1252 by Swedish statesman Birger Jarl.
+                    Stockholm is the cultural, media, political, and economic centre of Sweden. 
+                    The Stockholm metro, opened in 1950, is well known for the decor of its stations; it has been called the longest 
+                    art gallery in the world.
+                    Stockholm is the seat of the Swedish government and most of its agencies, including the highest courts in the judiciary,
+                    and the official residencies of the Swedish monarch and the Prime Minister. Stockholm Palace is the official residence and 
+                    principal workplace of the Swedish monarch.</p>
+                  
+                        <div class="item-info">
+                            <div class="gallery2">
+                                <img src="style/images/about/sodermalm.jpg" alt="View from Södermalm">
+                                <div class="gallery-info">
+                                <p>View from Södermalm</p>
+                                </div>                
+                        </div>
+                        <div class="gallery2">
+                            <img src="style/images/todo/djurgarden2.jpg" alt="Djurgården">
+                            <div class="gallery-info">
+                            <p>Kungliga Djurgården</p>
+                            </div>             
+                        </div>
+                        <div class="gallery2">
+                            <img src="style/images/about/haga.jpg" alt="Drottninggatan">
+                            <div class="gallery-info">
+                            <p>Hagaparken</p>
+                            </div>
+                        </div>        
+                </div>
         </div>
-        <div class="map" id="map"></div>
-           <div class="sthlm">      
-                
-                <h1 class="headline">Stockholm</h1><p>
-                Stockholm is the capital and most populous urban area of Sweden as well as in Scandinavia. 
-                1 million people live in the municipality, approximately 2 million in the urban area,
-                and 2.4 million in the metropolitan area.
-                The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. 
-                Outside the city to the east, and along the coast, is the island chain of the Stockholm archipelago. 
-                The area has been settled since the Stone Age, in the 6th millennium BC, and was founded as a city in 
-                1252 by Swedish statesman Birger Jarl.
-                Stockholm is the cultural, media, political, and economic centre of Sweden. 
-                The Stockholm metro, opened in 1950, is well known for the decor of its stations; it has been called the longest 
-                art gallery in the world.
-                Stockholm is the seat of the Swedish government and most of its agencies, including the highest courts in the judiciary,
-                and the official residencies of the Swedish monarch and the Prime Minister. Stockholm Palace is the official residence and 
-                principal workplace of the Swedish monarch.
-                </p>
-                <p>
-                If you're interested in a guided tour take a look at our local guides <a href="#guided-tours">here</a>! 
-                </p>
+        <div class="vasastan">
+            <h1 class="headline">Vasastan</h1><p>
+            Residential Vasastan is known for its parks, in particular Vasaparken, a popular picnic spot, and Observatorielunden park, 
+            home to the Stockholm Observatory. Tegnérlunden park has statues of Astrid Lindgren, author of the Pippi Longstocking books, 
+            and playwright August Strindberg, whose former home, now the Strindbergsmuseet, is nearby. 
+            Cozy Scandinavian restaurants cluster on Odenplan and St. Eriksplan squares.</p>
                 <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/sodermalm.jpg" alt="View from Södermalm"></a>
-                       <div class="gallery-info">
-                        <p>View from Södermalm</p>
-                        </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/todo/djurgarden2.jpg" alt="Djurgården"></a>
-                       <div class="gallery-info">
-                        <p>Kungliga Djurgården</p>
-                        </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/haga.jpg" alt="Drottninggatan"></a>
-                       <div class="gallery-info">
-                        <p>Hagaparken</p>
-                        </div>
-                  </div>
-                    
-                </div>
-            </div>
-            <div class="vasastan">
-                
-                <h1 class="headline">Vasastan</h1><p>
-                Residential Vasastan is known for its parks, in particular Vasaparken, a popular picnic spot, and Observatorielunden park, 
-                home to the Stockholm Observatory. Tegnérlunden park has statues of Astrid Lindgren, author of the Pippi Longstocking books, 
-                and playwright August Strindberg, whose former home, now the Strindbergsmuseet, is nearby. 
-                Cozy Scandinavian restaurants cluster on Odenplan and St. Eriksplan squares.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/vasastan.jpg" alt="Vasastan"></a>
-                       <div class="gallery-info">
+                    <div class="gallery2">
+                        <img src="style/images/about/vasastan.jpg" alt="Vasastan">
+                        <div class="gallery-info">
                         <p>Vasastan</p>
-                        </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/vasastan2.jpg" alt="View over Vasastan"></a>
-                       <div class="gallery-info">
+                        </div>   
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/vasastan2.jpg" alt="View over Vasastan">
+                        <div class="gallery-info">
                         <p>View over Vasastan</p>
-                        </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/vasastan3.jpg" alt="Norrtullsgatan, Vasastan"></a>
-                       <div class="gallery-info">
+                        </div>       
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/vasastan3.jpg" alt="Norrtullsgatan, Vasastan">
+                        <div class="gallery-info">
                         <p>Norrtullsgatan, Vasastan</p>
                         </div>
-                  </div>
-                    
+                    </div>                
                 </div>
-            </div>
-            <div class="norrmalm">
-                
-                <h1 class="headline">Norrmalm</h1><p>
-                Norrmalm is a busy commercial area, with mainstream Swedish fashion and design shops lining Drottninggatan and 
-                the surrounding streets. It’s also a cultural hub, with opera and ballet at the Royal Swedish Opera, art exhibitions and 
-                modern dance at Kulturhuset Stadsteatern and orchestral performances at the neoclassical Stockholm Concert Hall. 
-                Tree-lined Kungsträdgården park has walking paths and several cafes.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/boquerian.jpg" alt="Boquerian"></a>
-                       <div class="gallery-info">
+        </div>
+        <div class="norrmalm">    
+            <h1 class="headline">Norrmalm</h1><p>
+            Norrmalm is a busy commercial area, with mainstream Swedish fashion and design shops lining Drottninggatan and 
+            the surrounding streets. It’s also a cultural hub, with opera and ballet at the Royal Swedish Opera, art exhibitions and 
+            modern dance at Kulturhuset Stadsteatern and orchestral performances at the neoclassical Stockholm Concert Hall. 
+            Tree-lined Kungsträdgården park has walking paths and several cafes.</p>
+                <div class="item-info">
+                    <div class="gallery2">
+                        <img src="style/images/about/boquerian.jpg" alt="Boquerian">
+                        <div class="gallery-info">
                         <p>Boquerian, Mood Shopping Mall</p>
                         </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a><img src="style/images/about/kungstradgarden2.jpg" alt="Cheery Blossoms"></a>
-                       <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/kungstradgarden2.jpg" alt="Cheery Blossoms">
+                        <div class="gallery-info">
                         <p>Cherry Blossoms in Kungsträdgården</p>
-                        </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/todo/kungstradgarden.jpg" alt="Kungsträdgården"></a>
-                       <div class="gallery-info">
+                        </div>     
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/todo/kungstradgarden.jpg" alt="Kungsträdgården">
+                        <div class="gallery-info">
                         <p>Kungsträdgården</p>
                         </div>
-                  </div>
-                    
+                    </div>           
                 </div>
-            </div>
-            <div class="ostermalm">
-                
-                <h1 class="headline">Östermalm</h1><p>
-                Elegant Östermalm is known for its smart bars and restaurants on Stureplan square, and its cultural venues, 
-                such as the Swedish History Museum, displaying Viking weapons. Designer boutiques dot the area near Östermalms Saluhall, 
-                a food market known for traditional specialties like gravlax and smoked shrimp. Centered on the imposing National Library 
-                of Sweden, tranquil Humlegården park hosts plays in summer.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/karlavagen.jpg" alt="Karlavägen"></a>
-                       <div class="gallery-info">
+        </div>
+        <div class="ostermalm"> 
+            <h1 class="headline">Östermalm</h1><p>
+            Elegant Östermalm is known for its smart bars and restaurants on Stureplan square, and its cultural venues, 
+            such as the Swedish History Museum, displaying Viking weapons. Designer boutiques dot the area near Östermalms Saluhall, 
+            a food market known for traditional specialties like gravlax and smoked shrimp. Centered on the imposing National Library 
+            of Sweden, tranquil Humlegården park hosts plays in summer.</p>
+                <div class="item-info">
+                    <div class="gallery2">
+                        <img src="style/images/about/karlavagen.jpg" alt="Karlavägen">
+                        <div class="gallery-info">
                         <p>Karlavägen</p>
                         </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/biblioteksgatan.jpg" alt="Biblioteksgatan, Östermalm"></a>
-                       <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/biblioteksgatan.jpg" alt="Biblioteksgatan, Östermalm">
+                        <div class="gallery-info">
                         <p>Bibliotekesgatan</p>
-                        </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/todo/humlegarden.jpg" alt="Humlegarden"></a>   
-                    <div class="gallery-info">
+                        </div>        
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/todo/humlegarden.jpg" alt="Humlegarden"> 
+                        <div class="gallery-info">
                         <p>Humlegården</p>
                         </div>
-                  </div>
-               
+                    </div>
                 </div>
-            </div> 
-            <div class="djurgarden">
-                
-                <h1 class="headline">Djurgården</h1><p>
-                Djurgården is a tranquil island known for the Vasa Museum, featuring a 17th-century warship, and the Skansen open-air museum, 
-                which has craftspeople and reconstructed homes depicting Swedish life through the decades. Fans of Swedish pop music browse 
-                memorabilia, old records and costumes, at ABBA: The Museum. Ferries dock next to Gröna Lund amusement park, known for its 
-                thrill rides and summer concerts.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/todo/djurgarden2.jpg" alt="Djurgården"></a>
-                       <div class="gallery-info">
+        </div> 
+        <div class="djurgarden"> 
+            <h1 class="headline">Djurgården</h1><p>
+            Djurgården is a tranquil island known for the Vasa Museum, featuring a 17th-century warship, and the Skansen open-air museum, 
+            which has craftspeople and reconstructed homes depicting Swedish life through the decades. Fans of Swedish pop music browse 
+            memorabilia, old records and costumes, at ABBA: The Museum. Ferries dock next to Gröna Lund amusement park, known for its 
+            thrill rides and summer concerts.</p>
+                <div class="item-info">
+                    <div class="gallery2">
+                        <img src="style/images/todo/djurgarden2.jpg" alt="Djurgården">
+                        <div class="gallery-info">
                         <p>Along the canal, Djurgården</p>
-                        </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/todo/gronalund.jpg" alt="Gröna Lund"></a>
-                       <div class="gallery-info">
+                        </div>  
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/todo/gronalund.jpg" alt="Gröna Lund">
+                        <div class="gallery-info">
                         <p>Gröna Lund Amusement Park</p>
                         </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/djurgarden3.jpg" alt="Djurgården"></a>
-                       <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/djurgarden3.jpg" alt="Djurgården">
+                        <div class="gallery-info">
                         <p>Djurgården Canal</p>
                         </div>
-                  </div>
-               
+                    </div>
                 </div>
-            </div>   
-            <div class="gamlastan">
-                
-                <h1 class="headline">Gamla Stan</h1><p>
-                The bustling, compact island of Gamla Stan is the city’s old town, with cobbled streets and colorful 17th- and 18th-century 
-                buildings. It’s home to the medieval Storkyrkan cathedral and the Royal Palace, the king’s official residence. Stylish bistros 
-                serve New Nordic cuisine, while night spots include old-school pubs and chic cocktail bars. On adjoining Riddarholmen island, 
-                Riddarholmen Church hosts summer concerts.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/gamlastan.jpg" alt="Gamla Stan"></a>
-                       <div class="gallery-info">
+        </div>   
+        <div class="gamlastan">  
+            <h1 class="headline">Gamla Stan</h1><p>
+            The bustling, compact island of Gamla Stan is the city’s old town, with cobbled streets and colorful 17th- and 18th-century 
+            buildings. It’s home to the medieval Storkyrkan cathedral and the Royal Palace, the king’s official residence. Stylish bistros 
+            serve New Nordic cuisine, while night spots include old-school pubs and chic cocktail bars. On adjoining Riddarholmen island, 
+            Riddarholmen Church hosts summer concerts.</p>
+                <div class="item-info">
+                    <div class="gallery2">
+                        <img src="style/images/about/gamlastan.jpg" alt="Gamla Stan">
+                        <div class="gallery-info">
                         <p>Stortorget</p>
                         </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/gamlastan2.jpg" alt="Cobbler streets"></a>
-                       <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/gamlastan2.jpg" alt="Cobbler streets">
+                        <div class="gallery-info">
                         <p>Narrow cobbler streets in Gamla Stan</p>
-                        </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/gamlastan3.jpg" alt="Narrow street, Gamla Stan"></a>
-                       <div class="gallery-info">
+                        </div>    
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/gamlastan3.jpg" alt="Narrow street, Gamla Stan">
+                        <div class="gallery-info">
                         <p>Stockholm's narrowest street; Mårten Trotzigs gränd</p>
                         </div>
-                  </div>
-                 
+                    </div>
                 </div>
-            </div>
-            <div class="sodermalm">
-                
-                <h1 class="headline">Södermalm</h1><p>
-                Sprawling Södermalm island has a relaxed, creative vibe, with artsy shops, eclectic cafes  and the stylish Fotografiska, 
-                a contemporary photo  gallery in a former industrial building by the water. Classic Swedish restaurants and hip breakfast 
-                spots surround leafy Nytorget Square and dot the bustling  Hornstull area. In summer, the small beaches in Tantolunden 
-                park are popular for swimming and picnics.
-                </p>
-                      <div class="item-info">
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/sodermalm.jpg" alt="Södermalm views"></a>
-                     <div class="gallery-info">
+        </div>
+        <div class="sodermalm">
+            <h1 class="headline">Södermalm</h1><p>
+            Sprawling Södermalm island has a relaxed, creative vibe, with artsy shops, eclectic cafes  and the stylish Fotografiska, 
+            a contemporary photo  gallery in a former industrial building by the water. Classic Swedish restaurants and hip breakfast 
+            spots surround leafy Nytorget Square and dot the bustling  Hornstull area. In summer, the small beaches in Tantolunden 
+            park are popular for swimming and picnics.</p>
+                <div class="item-info">
+                    <div class="gallery2">
+                        <img src="style/images/about/sodermalm.jpg" alt="Södermalm views">
+                        <div class="gallery-info">
                         <p>Views from Södermalm</p>
                         </div>
-                     
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/sodermalm2.jpg" alt="View from Södermalm"></a>
-                     <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/sodermalm2.jpg" alt="View from Södermalm">
+                        <div class="gallery-info">
                         <p>View from Sodermalm north</p>
                         </div>
-                    
-                </div>
-                  <div class="gallery2">
-                    <a href="#"><img src="style/images/about/sodermalm3.jpg" alt="Götgatan"></a>
-                     <div class="gallery-info">
+                    </div>
+                    <div class="gallery2">
+                        <img src="style/images/about/sodermalm3.jpg" alt="Götgatan">
+                        <div class="gallery-info">
                         <p>Götgatan, Södermalm</p>
                         </div>
-                  </div>
-                  
+                    </div>
                 </div>
             </div>
         </div>
 </section>
 <!------------- Image inbetween sections ------->
-<section>
-    <div class="bg-image-2"></div>
-</section>
+<section><div class="bg-image-2"></div></section>
 <!------------- What To Do section ------->
 <section id="things-to-do">
     <div class="section-info">
@@ -312,22 +268,20 @@
           <button id="leisure">Leisure Time</button>
         </div>
     </div>
-    
     <div class="map" id="map2"></div>
     <div class="culture">
         <h1 class="headline">Culture</h1>
             <div class="item-info">
                 <div class="gallery">
-                    <a href="#"><img src="style/images/todo/library.jpg" alt="Stockholm Library"></a>
+                    <img src="style/images/todo/library.jpg" alt="Stockholm Library">
                         <div class="gallery-info">
                         <h4>Stockholm Public Library</h4><p>is a library building in Stockholm, Sweden, designed by Swedish architect 
                         Gunnar Asplund, and one of the city's most notable structures. The name is today used for both the main library 
                         itself as well as the municipal library system of Stockholm.</p>
-                         <button class="eat-button"><a href="https://www.gronalund.com/en/" target="_blank">Go to their website</a></button>
                         </div>
                 </div>
                 <div class="gallery">
-                    <a><img src="style/images/todo/cityhall.jpg" alt="City Hall"></a>
+                    <img src="style/images/todo/cityhall.jpg" alt="City Hall">
                         <div class="gallery-info">
                         <h4>The Stockholm City Hall</h4><p>is the building of the Municipal Council for the City of Stockholm in Sweden. 
                         It stands on the eastern tip of Kungsholmen island, next to Riddarfjärden's northern shore and facing the 
@@ -338,18 +292,17 @@
                         </div>
                 </div>
                 <div class="gallery">
-                    <a><img src="style/images/todo/fotografiska.jpg" alt="Fotografiska"></a>
+                    <img src="style/images/todo/fotografiska.jpg" alt="Fotografiska">
                         <div class="gallery-info">
                         <h4>Fotografiska</h4><p>is a centre for contemporary photography in Södermalm, with walking distance to Gamla Stan and Slussen. Here you'll find fotographs 
-                        and art installations all year round. On the top floor you'll also find their restaurant, perfect to stop for a coffee or even lunch or dinner. 
-                        </p>
-                         <button class="eat-button"><a href="https://www.fotografiska.com/sto/" target="_blank">Go to their website</a></button>
-                </div>
+                        and art installations all year round. On the top floor you'll also find their restaurant, perfect to stop for a coffee or even lunch or dinner.</p>
+                        <button class="eat-button"><a href="https://www.fotografiska.com/sto/" target="_blank">Go to their website</a></button>
+                        </div>
                 </div>
             </div>
     </div>
     <div class="parks">
-    <h1 class="headline">Parks & Recreational</h1>
+        <h1 class="headline">Parks & Recreational</h1>
         <div class="item-info">
             <div class="gallery">
             <img src="style/images/todo/humlegarden.jpg" alt="Humlegarden">
@@ -410,297 +363,245 @@
     </div>
 </section>
 <!------------- Image inbetween sections ------->
-
-<section><div class="bg-image-2"></div>
-
-</section>
+<section><div class="bg-image-2"></div></section>
 <!------------- Where to eat section ------->
 <section id="where-to-eat">
     <div class="section-info">
         <h1 class="headline">Where To Eat</h1>
             <div class="city-area-menu">
-          <button id="breakfast">Breakfast/Brunch</button>
-          <button id="lunch">Lunch</button>
-          <button id="cafes">Cafés</button>
-          <button id="dinner">Dinner</button>
+                <button id="breakfast">Breakfast/Brunch</button>
+                <button id="lunch">Lunch</button>
+                <button id="cafes">Cafés</button>
+                <button id="dinner">Dinner</button>
             </div>
-        <div class="map" id="map3">Google Maps here</div>
-            <div class="breakfast">
+            <div class="map" id="map3">Google Maps here</div>
+                <div class="breakfast">
                     <h1>Breakfast/Brunch</h1>
                     <div class="item-info">
                         <div class="gallery">
-                        <img src="style/images/eat/brunchclub.jpg" alt="Sthlm Brunch Club">
+                            <img src="style/images/eat/brunchclub.jpg" alt="Sthlm Brunch Club">
                             <div class="gallery-info">
-                            <h4>Sthlm Brunch Club</h4><p> is a eatery offering hearty breakfast, brunch & lunch 
+                            <h4>Sthlm Brunch Club</h4><p>is a eatery offering hearty breakfast, brunch & lunch 
                             staples from eggs to pancakes. Located in Vasastan. The tables are by first come, first serve so it's 
-                            quite common having to wait in line especially during the weekends. </p>
-                            
+                            quite common having to wait in line especially during the weekends.</p>
                             <button class="eat-button"><a href="https://www.sthlmbrunchclub.se/" target="_blank">Go to their website</a></button>
-                            
                             </div>
                         </div>
-                    
-                <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/greasyspoon.jpg" alt="The Greasy Spoon"></a>
-                    <div class="gallery-info"> 
-                    <h4>The Greasy Spoon</h4><p>A modern take on a classic British institution: The Greasy Spoon. 
-                    Serving a delicious range of breakfast, brunch & lunch items available all day. Two locations in the 
-                    city, one in Södermalm och one in Vasastan.
-                    </p>
-                    
-                    <button class="eat-button"><a href="https://www.greasyspoon.se/" target="_blank">Go to their webiste</a></button>
-                    
-                    
-
-                    </div>
-                </div>
-                <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/missclara.jpg" alt="Miss Clara"></a>
-                    <div class="gallery-info">
-                   <h4>Miss Clara</h4>
-                   <p>All-day brunch. Finding inspiration in London’s cosy gems and New York’s prime brunches, 
-                   their aim is to bring Stockholm back to life by welcoming you to Brunch with Miss Clara. An A-la-Carte brunch that is authentic gastronomy.
-                    </p>
-                    
-                    <button class="eat-button"><a href="https://missclarahotel.com/restaurant-bar/" target="_blank">Go to their website</a></button>
-                    
-                </div>
-                </div>
+                        <div class="gallery">
+                            <img src="style/images/eat/greasyspoon.jpg" alt="The Greasy Spoon">
+                            <div class="gallery-info"> 
+                            <h4>The Greasy Spoon</h4><p>A modern take on a classic British institution: The Greasy Spoon. 
+                            Serving a delicious range of breakfast, brunch & lunch items available all day. Two locations in the 
+                            city, one in Södermalm och one in Vasastan.
+                            </p>
+                            <button class="eat-button"><a href="https://www.greasyspoon.se/" target="_blank">Go to their webiste</a></button>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="style/images/eat/missclara.jpg" alt="Miss Clara">
+                            <div class="gallery-info">
+                            <h4>Miss Clara</h4>
+                            <p>All-day brunch. Finding inspiration in London’s cosy gems and New York’s prime brunches, 
+                            their aim is to bring Stockholm back to life by welcoming you to Brunch with Miss Clara. An A-la-Carte brunch that is authentic gastronomy.</p>
+                            <button class="eat-button"><a href="https://missclarahotel.com/restaurant-bar/" target="_blank">Go to their website</a></button>
+                            </div>
+                        </div>
                     </div>
             </div>
             <div class="lunch">
                 <h1>Lunch</h1>
                 <div class="item-info">
                     <div class="gallery">
-                        <a href="#" target="_blank" ><img src="style/images/eat/ullawinbladh.jpg" alt="Wärdshuset Ulla Winbladh"></a>
+                        <img src="style/images/eat/ullawinbladh.jpg" alt="Wärdshuset Ulla Winbladh">
                         <div class="gallery-info">
                         <h4>Wärdshuset Ulla Winbladh</h4>
-                        <p>was originally built as a steam bakery for the 1897 Stockholm World Fair and is set in charming parkland beside the Skansen open-air museum. Sit on the terrace or in the older, more characterful part of the building. Typical Swedish dishes include the likes of fish roe and sweet and sour herring.
-                         </p>
-                        
+                        <p>was originally built as a steam bakery for the 1897 Stockholm World Fair and is set in charming parkland 
+                        beside the Skansen open-air museum. Sit on the terrace or in the older, more characterful part of the building. 
+                        Typical Swedish dishes include the likes of fish roe and sweet and sour herring.</p>
                         <button class="eat-button"><a href="https://www.ullawinbladh.se/" target="_blank">Go to their website</a></button>
-                        
                         </div>
                     </div>
                     <div class="gallery">
-                    <a href="#" target="_blank"><img src="style/images/eat/bastardburger.jpg" alt="Bastard Burgers"></a>
-                    <div class="gallery-info"> 
-                    <h4>Bastard Burgers</h4>
-                    <p>Bastard Burgers är en snabbt växande streetfoodkedja. Här serveras prisbelönta 
-                    burgare och Sveriges största veganska utbud. Kärlek till mat och människor har skapat en stark kultur runt 
-                    Bastard Burgers, där såväl klimatsmarta initiativ som högljudd hiphop ryms. Inspirationen hämtas från New York och 
-                    kvaliteten kommer från Norrland.
-                    </p>
-                    <p>
-                    <button class="eat-button"><a href="https://bastardburgers.se/" target="_blank">Go to their website</a></button>
-                    </p>
-                    </div>
+                        <img src="style/images/eat/bastardburger.jpg" alt="Bastard Burgers">
+                        <div class="gallery-info"> 
+                        <h4>Bastard Burgers</h4>
+                        <p>Bastard Burgers är en snabbt växande streetfoodkedja. Här serveras prisbelönta 
+                        burgare och Sveriges största veganska utbud. Kärlek till mat och människor har skapat en stark kultur runt 
+                        Bastard Burgers, där såväl klimatsmarta initiativ som högljudd hiphop ryms. Inspirationen hämtas från New York och 
+                        kvaliteten kommer från Norrland.</p>
+                        <button class="eat-button"><a href="https://bastardburgers.se/" target="_blank">Go to their website</a></button> 
+                        </div>
                     </div>
                     <div class="gallery">
-                    <a href="#" target="_blank"><img src="style/images/eat/urbandeli.jpg" alt="Urban Deli"></a>
+                        <img src="style/images/eat/urbandeli.jpg" alt="Urban Deli">
                         <div class="gallery-info">
                         <h4>Urban Deli</h4>
                         <p>A popular restaurant, bar, deli, and store in the heart of style-conscious SoFo, ready to 
-                        serve you all of the day’s meals. The menu is varied and the dishes are well prepared.
-                         </p>
-                        
+                        serve you all of the day’s meals. The menu is varied and the dishes are well prepared.</p>
                         <button class="eat-button"><a href="https://www.urbandeli.org/" target="_blank">Go to their website</a></button>
-                        
                         </div>
                     </div>
                 </div>
             </div>
             <div class="cafes">
-            <h1>Cafés</h1>
-            <div class="item-info">
-            <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/foam.jpg" alt="Cafe Foam"></a>
-                    <div class="gallery-info">
-                    <h4>Café Foam</h4>
-                    <p>Café Foam has been around for quite some time and is a sure favourite among locals to the area. With its on-trend 
-                    interior, ambitious café food and great coffee - Café Foam is well worth a visit.
-                     </p>
-                    
-                    <button class="eat-button"><a href="https://www.cafefoam.com/" target="_blank">Go to their website</a></button>
-                    
+                <h1>Cafés</h1>
+                <div class="item-info">
+                    <div class="gallery">
+                        <img src="style/images/eat/foam.jpg" alt="Cafe Foam">
+                        <div class="gallery-info">
+                        <h4>Café Foam</h4>
+                        <p>Café Foam has been around for quite some time and is a sure favourite among locals to the area. With its on-trend 
+                        interior, ambitious café food and great coffee - Café Foam is well worth a visit.</p>
+                        <button class="eat-button"><a href="https://www.cafefoam.com/" target="_blank">Go to their website</a></button>
+                        </div>
                     </div>
-            </div>
-            <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/ilcaffe.jpg" alt="ilCaffe"></a>
-                    <div class="gallery-info"> 
-                    <h4>Il Caffe</h4>
-                    <p>Take a well-deserved coffee break in the heart of busy Södermalm at one of the 
-                    local’s favorite “fika” spots. Unpretentious and cozy, Il Caffé offers pastries, simple lunches and fresh bread 
-                    from their own bakery. Check out their other locations, too!
-                     </p>
-                    
-                    <button class="eat-button"><a href="https://ilcaffe.se/" target="_blank">Go to their website</a></button>
-                    
+                    <div class="gallery">
+                        <img src="style/images/eat/ilcaffe.jpg" alt="ilCaffe">
+                        <div class="gallery-info"> 
+                        <h4>Il Caffe</h4>
+                        <p>Take a well-deserved coffee break in the heart of busy Södermalm at one of the 
+                        local’s favorite “fika” spots. Unpretentious and cozy, Il Caffé offers pastries, simple lunches and fresh bread 
+                        from their own bakery. Check out their other locations, too!</p>  
+                        <button class="eat-button"><a href="https://ilcaffe.se/" target="_blank">Go to their website</a></button>             
+                        </div>
                     </div>
-            </div>
-            <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/brodsalt.jpg" alt="Bröd & Salt"></a>
-                    <div class="gallery-info">
-                    <h4>Bröd & Salt</h4>
-                    <p>Bröd & Salt is a local chain of artisan bakeries, with 11 locations all over Stockholm. Everything is fresh, 
-                    made from sourdough, and lactose-free. Besides fresh bread, buns, and cookies Bröd & Salt also has a selection 
-                    of fresh salads, sandwiches, and wraps if you’re hungry for lunch!
-                    </p>
-                
-                    <button class="eat-button"><a href="https://www.brodsalt.se/" target="_blank">Go to their website</a></button>
-                    
+                    <div class="gallery">
+                        <img src="style/images/eat/brodsalt.jpg" alt="Bröd & Salt">
+                        <div class="gallery-info">
+                        <h4>Bröd & Salt</h4>
+                        <p>Bröd & Salt is a local chain of artisan bakeries, with 11 locations all over Stockholm. Everything is fresh, 
+                        made from sourdough, and lactose-free. Besides fresh bread, buns, and cookies Bröd & Salt also has a selection 
+                        of fresh salads, sandwiches, and wraps if you’re hungry for lunch!</p>         
+                        <button class="eat-button"><a href="https://www.brodsalt.se/" target="_blank">Go to their website</a></button>                  
+                        </div>
                     </div>
-            </div>
-            </div>
+                </div>
             </div>
             <div class="dinner">
-        <h1>Dinner</h1>
-            <div class="item-info">
-                <div class="gallery">
-                    <a href="#" target="_blank"><img src="style/images/eat/boquerian2.jpg" alt="Boquerian"></a>
-                    <div class="gallery-info">
-                    <h4>Boquerian</h4>
-                    <p>serves authentic Spanish food such as tapas, pintxos and 
-                    high quality delicacies in a relaxed and warm atmosphere, and let's not forget that they're mentioned in the Michelin Guide. 
-                    Boquerian is located in Mood Shopping mall in Norrmalm and they also serve lunch during 
-                    the weeks and brunch in the weekends.
-                     </p>
-                
-                    <button class="eat-button"><a href="https://www.boqueriastockholm.se/" target="_blank">Go to their website</a></button>
-                     
+            <h1>Dinner</h1>
+                <div class="item-info">
+                    <div class="gallery">
+                        <img src="style/images/eat/boquerian2.jpg" alt="Boquerian">
+                        <div class="gallery-info">
+                        <h4>Boquerian</h4>
+                        <p>serves authentic Spanish food such as tapas, pintxos and 
+                        high quality delicacies in a relaxed and warm atmosphere, and let's not forget that they're mentioned in the Michelin Guide. 
+                        Boquerian is located in Mood Shopping mall in Norrmalm and they also serve lunch during 
+                        the weeks and brunch in the weekends.</p>            
+                        <button class="eat-button"><a href="https://www.boqueriastockholm.se/" target="_blank">Go to their website</a></button>             
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <img src="style/images/eat/trattorian.jpg" alt="Trattorian">
+                        <div class="gallery-info"> 
+                        <h4>Trattorian</h4><p>Classic Italian cuisine in an inviting setting. Trattorian is located along the 
+                        walking route on Norr Mälarstrand and is, along with Orangeriet a vibrant meeting place with lovely outdoor 
+                        seating areas and proximity to the water.</p>                  
+                        <button class="eat-button"><a href="https://trattorian.se/" target="_blank">Go to their website</a></button>                
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <img src="style/images/eat/bistroteket.jpg" alt="Bistroteket">
+                        <div class="gallery-info">
+                        <h4>Bistroteket</h4><p>With style cues from both NYC and Paris, Bistroteket evokes classic brasserie-vibes 
+                        with a twist. Located just off uber-trendy Nytorget, this chic neighbourhood restaurant boasts generous 
+                        opening hours, extensive international menu and relaxed ambiance. Come summer, the outdoor seating area is a 
+                        welcome addition.</p>             
+                        <button class="eat-button"><a href="http://bistroteket.se/" target="_blank">Go to their website</a></button>                  
+                        </div>
                     </div>
                 </div>
-                <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/trattorian.jpg" alt="Trattorian"></a>
-                    <div class="gallery-info"> 
-                    <h4>Trattorian</h4><p>Classic Italian cuisine in an inviting setting. Trattorian is located along the 
-                    walking route on Norr Mälarstrand and is, along with Orangeriet a vibrant meeting place with lovely outdoor 
-                    seating areas and proximity to the water.
-                     </p>
-                    
-                    <button class="eat-button"><a href="https://trattorian.se/" target="_blank">Go to their website</a></button>
-                    
-                    </div>
-                </div>
-                <div class="gallery">
-                <a href="#" target="_blank"><img src="style/images/eat/bistroteket.jpg" alt="Bistroteket"></a>
-                    <div class="gallery-info">
-                    <h4>Bistroteket</h4><p>With style cues from both NYC and Paris, Bistroteket evokes classic brasserie-vibes 
-                    with a twist. Located just off uber-trendy Nytorget, this chic neighbourhood restaurant boasts generous 
-                    opening hours, extensive international menu and relaxed ambiance. Come summer, the outdoor seating area is a 
-                    welcome addition.
-                     </p>
-                
-                    <button class="eat-button"><a href="http://bistroteket.se/" target="_blank">Go to their website</a></button>
-                    
-                    </div>
-            </div>
-        </div>
             </div>
     </div>
 </section>
 <!------------- Image inbetween sections ------->
-<section>
-    <div class="bg-image-2">
-    </div>
-</section>
+<section><div class="bg-image-2"></div></section>
 <!---------- Guide Tour and section ------->
 
 <section id="guided-tours">
       <div class="section-info">
        
         <div class="guide-tours">
-         <h1 class="headline">Guided Tours</h1>
-        <p>We offer you three different guided tours with experienced local guides to show you around town. 
-        Just fill in our form below and we will get back to you as soon as we can!</p>
-       
-        <div class="item-info">
-            <div class="gallery">
-           
+            <h1 class="headline">Guided Tours</h1>
+            <p>We offer you three different guided tours with experienced local guides to show you around town. 
+            Just fill in our form below and we will get back to you as soon as we can!</p>
+                <div class="item-info">
+                    <div class="gallery">         
                     <div class="gallery-info">
                     <h4>Gamla Stan To Norrmalm</h4><p>Stockholm Parliament - Långmannagatan - Lunch at Urban Deli - 
                     Shopping at Drottninggatan - Konserthuset</p>
-                    <button class="tour-button"><a>See Route</a></button>
                     <button id="tour1" class="tour-button"><a href="#contact">Book this tour/Request more info</a></button>
                     </div>
-            </div>
-            <div class="gallery">
-              
+                </div>
+                <div class="gallery">             
                     <div class="gallery-info"> 
                     <h4>Djurgården to Gamla Stan</h4><p>Stockholm Slott - The worlds narrowest street - Ferry to Djurgården - 
                     Lunch at Wärdshuset Ulla Winbladh - Abba Museum</p>
-                    <button class="tour-button"><a>See Route</a></button>
                     <button id="tour2" class="tour-button"><a href="#contact">Book this tour/Request more info</a></button>
                     </div>
-            </div>
-            <div class="gallery">
-             
+                </div>
+                <div class="gallery">            
                     <div class="gallery-info">
                     <h4>Södermalm to Östermalm</h4><p>Fotografiska Museet - Lunch at Ilcaffe - Art in the subway at 
                     Kungsträdgården - Östermalms Saluhall</p>
-                    <button class="tour-button"><a>See Route</a></button>
                     <button id="tour3" class="tour-button"><a href="#contact">Book This Tour/Request more info</a></button>
                     </div>
+                </div>
             </div>
-        </div>
-             <div>
-             <p>If you are a bigger company and want a tour tailored to your wishes we would be happy to help you with that as well!</p> 
-             </div>
-        
+            <div>
+            <p>If you are a bigger company and want a tour tailored to your wishes we would be happy to help you with that as well!</p> 
+            </div>       
         </div>
       </div>
 </section>
 <!------------- Image inbetween sections ------->
-<section>
-    <div class="bg-image-2">
-    </div>
-</section>
+<section><div class="bg-image-2"></div></section>
 <!------------- Contact Form ---------->
 
 <section id="contact">
-      
         <div class="contact-section">
-          <h1 class="headline">Contact Us</h1>
-        <p>
-          Enter your information below, choose which tour you're interested in, any questions you might have and we will get back to you as
-          soon as possible!
-        </p>
-        <div>
-          <form id="contact-form" onsubmit="return sendForm(this);">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required/>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required/>
-            <label for="tours">Choose a tour:</label>
-            <select id="tours" name="tours">
-            <option value="oldtowntonorrmalm">1. Gamla Stan To Norrmalm</option>
-            <option value="djurgardentooldtown">2. Djurgården To Gamla Stan</option>
-            <option value="sodermalmtoostermalm">3. Södermalm to Östermalm</option>
-            </select>
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="Write your message/questions here" style="height: 200px;" required>
-            </textarea>
-            <input class="contact-button" type="submit" value="Send"/>
-          </form>
-        </div>
+            <h1 class="headline">Contact Us</h1>
+            <p>
+            Enter your information below, choose which tour you're interested in, any questions you might have and we will get back to you as
+            soon as possible!</p>
+            <div>
+                <form id="contact-form" onsubmit="return sendForm(this);">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required/>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required/>
+                    <label for="tours">Choose a tour:</label>
+                    <select id="tours" name="tours">
+                        <option value="oldtowntonorrmalm">1. Gamla Stan To Norrmalm</option>
+                        <option value="djurgardentooldtown">2. Djurgården To Gamla Stan</option>
+                        <option value="sodermalmtoostermalm">3. Södermalm to Östermalm</option>
+                    </select>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write your message/questions here" style="height: 200px;" required>
+                    </textarea>
+                    <input class="contact-button" type="submit" value="Send"/>
+                </form>
+            </div>
         </div>
 </section>
 <!-------- Footer -------->
     <footer>
-    <div>© 2020 Frida Lindstrom</div>
-    <div><ul>
-    <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-    </ul></div>
+        <div>© 2020 Frida Lindstrom</div>
+            <div>
+                <ul>
+                    <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                </ul>
+            </div>
     </footer>
 
-       <!-------- Link to JQuery -------->
+    <!-------- Link to JQuery -------->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
     crossorigin="anonymous"></script>
     <!-------- Link to Google Maps Api -->
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt03jWO3KqpgPpVdR0wbB_EbDjrAVtLA8&callback=initMap"
-  type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt03jWO3KqpgPpVdR0wbB_EbDjrAVtLA8&callback=initMap"
+    type="text/javascript"></script>
    <!-------- Link to Javascript-file ----->
     <script type="text/javascript" src="js/myscript.js"></script>
 
