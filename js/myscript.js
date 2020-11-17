@@ -17,21 +17,26 @@
   });
     }
   $(document).ready(function () {
+
   function newLocation(newLat, newLng) {
     map.setCenter({ lat: newLat, lng: newLng });
   }
+
+     
+        
 
   // About the city section - 
   $("#sthlm").on("click", function () {
     newLocation(59.3293, 18.0686), 
     map.setZoom(11);
-    $(".sthlm").fadeIn(2000).css("display", "block");
+     $(".sthlm").fadeIn(2000).css("display", "block");
     $(".vasastan").css("display", "none");
     $(".norrmalm").css("display", "none");
     $(".ostermalm").css("display", "none");
     $(".djurgarden").css("display", "none");
     $(".gamlastan").css("display", "none");
     $(".sodermalm").css("display", "none");
+ 
   });
   $("#vasastan").on("click", function () {
     newLocation(59.3427, 18.0386), 
@@ -107,18 +112,22 @@
         map: map2,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3434, lng: 18.0548 },
+        label: { fontWeight: 'bold', fontSize: '14px', text: 'Stockholm Public Library' },   
   });
+        
         // City Hall
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3275, lng: 18.0543 },
+        label: { fontSize: '14px', text: 'City Hall' },
   });
         // Fotografiska 
         new google.maps.Marker({
         map: map2,
         animation: google.maps.Animation.DROP,
         position: { lat: 59.3178, lng: 18.0859 }, 
+        label: { fontWeight: 'bold', fontSize: '14px', text: 'Fotografiska' },
   });
       $(".culture").fadeIn("2000").css("display", "block");
       $(".parks").css("display", "none");

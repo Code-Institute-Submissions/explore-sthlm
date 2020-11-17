@@ -98,22 +98,29 @@ nav {
     font-family: "Rozha One", serif;
     font-size: 5vh;
     text-align: center;
-    letter-spacing: 4px;
-    
+    letter-spacing: 4px;  
 }
 
 .city-area-menu button {
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     margin: 10px;
     font-family: "Lora", serif;
     border-bottom-style: double;
     background-color: #fff;
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .city-area-menu button:hover {
     color: #39515E;
+}
+
+.link-to-guide-section {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* ------------------------------ Google Maps */
@@ -136,7 +143,6 @@ nav {
 }
 
 .norrmalm, .vasastan, .ostermalm, .djurgarden, .gamlastan, .sodermalm {
-
     width: 80%;
     margin: auto;
     padding-top: 10vh;
@@ -232,12 +238,12 @@ nav {
 .tour-button {
     border: none;
     background-color: #39515E;
-    letter-spacing: 1px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 5px;
     font-family: "Lora", serif;
+    font-size: 12px;
 
 }
 
@@ -354,6 +360,7 @@ body {
 .logo {
     font-size: 12px;
 }
+
 .burger-menu {
     display: block;  
     margin-right: 10px;
@@ -385,14 +392,15 @@ body {
 
 .map {
     height: 30vh;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .city-area-menu button {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .contact-button {
